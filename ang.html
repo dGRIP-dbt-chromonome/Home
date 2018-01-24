@@ -2,8 +2,14 @@
 
         function speciesset() {
             removeOptions(document.getElementById('drop3'));
+            
+                        
+       if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Acanthospermum - A-403.001') {
+                 addfordrop3("A-403.001.001", "Acanthospermum australe - A-403.001.001");
+                 addfordrop3("A-403.001.002", "Acanthospermum hispidum - A-403.001.002");
+			}
 
-             if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Acanthus - A-377.001') {
+        else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Acanthus - A-377.001') {
                 addfordrop3("A-377.001.001", "Acanthus carduaceus - A-377.001.001");
                 addfordrop3("A-377.001.002", "Acanthus ebracteatus - A-377.001.002");
                 addfordrop3("A-377.001.003", "Acanthus ilicifolius - A-377.001.003");
@@ -11,12 +17,62 @@
                 addfordrop3("A-377.001.005", "Acanthus mollis - A-377.001.005");
                 addfordrop3("A-377.001.006", "Acanthus volubilis - A-377.001.006");
 
+
+            }
+
+            else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Achillea - A-403.002') {
+                            
+    addfordrop3("A-403.002.001", "Achillea alpina - A-403.002.001");
+    addfordrop3("A-403.002.002", "Achillea millefolium - A-403.002.002");
+    addfordrop3("A-403.002.003", "Achillea setacea - A-403.002.003");
+
+
             }
 
 
             else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Actinorhytis - A-076.001') {
                 addfordrop3("A-076.001.001", "Actinorhytis calapparia - A-076.001.001");
                 
+            }
+
+            else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Adenocaulon - A-403.003') {
+                            
+    addfordrop3("A-403.003.001", "Adenocaulon himalaicum - A-403.003.001");
+                
+   
+            }
+
+            else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Adenoon - A-403.004') {
+                            
+    addfordrop3("A-403.004.001", "Adenoon indicum - A-403.004.001");
+
+            }
+
+            else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Adenostemma - A-403.005') {
+                            
+    addfordrop3("A-403.005.001", "Adenostemma lavenia - A-403.005.001");
+    
+            }
+
+            else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Ageratina - A-403.006') {
+                            
+    addfordrop3("A-403.006.001", "Ageratina adenophora - A-403.006.001");
+        addfordrop3("A-403.006.001", "Ageratina ligustrina - A-403.006.001");
+        
+                    }
+
+            else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Ageratum - A-403.007') {
+                            
+    addfordrop3("A-403.007.001", "Ageratum conyzoides - A-403.007.001");
+        addfordrop3("A-403.007.001", "Ageratum houstonianum - A-403.007.001");
+
+                    }
+
+            else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Ainsliaea - A-403.008') {
+                            
+    addfordrop3("A-403.008.001", "Ainsliaea aptera - A-403.008.001");
+        addfordrop3("A-403.008.001", "Ainsliaea latifolia - A-403.008.001");
+
             }
 
             else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Alisma - A-030.001') {
@@ -81,7 +137,18 @@
     addfordrop3("A-028.002.006", "Alocasia macrorrhizos - A-028.002.006");
     addfordrop3("A-028.002.007", "Alocasia navicularis - A-028.002.007");
     addfordrop3("A-028.002.008", "Alocasia odora - A-028.002.008");
-
+    
+    }
+    
+            else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Amberboa - A-403.009') {
+                            
+    addfordrop3("A-403.009.001", "Amberboa moschata - A-403.009.001");
+    
+    }
+    
+            else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Ambrosia - A-403.010') {
+                            
+    addfordrop3("A-403.010.001", "Ambrosia artemisiifolia - A-403.010.001");
             }
             
             else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Amischotolype - A-078.002') {
@@ -150,6 +217,13 @@ addfordrop3("A-377.002.026", "Andrographis stellulata - A-377.002.026");
 addfordrop3("A-377.002.027", "Andrographis stenophylla - A-377.002.027");
 addfordrop3("A-377.002.028", "Andrographis viscosula - A-377.002.028");
 
+    }
+    
+            else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Anthemis - A-403.011') {
+                            
+    addfordrop3("A-403.011.001", "Anthemis cotula - A-403.011.001");
+
+
             }
 
             else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Aphelandra - A-377.003') {
@@ -216,6 +290,13 @@ addfordrop3("A-140.001.039", "Arachis valida - A-140.001.039");
 addfordrop3("A-140.001.040", "Arachis villosa - A-140.001.040");
 addfordrop3("A-140.001.041", "Arachis williamsii - A-140.001.041");
 
+    }
+    
+            else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Arctium - A-403.012') {
+                            
+    addfordrop3("A-403.012.001", "Arctium lappa - A-403.012.001");
+
+
             }
              else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Areca - A-076.002') {
                  addfordrop3("A-076.002.001", "Areca catechu - A-076.002.001");
@@ -226,7 +307,14 @@ addfordrop3("A-140.001.041", "Arachis williamsii - A-140.001.041");
 				 addfordrop3("A-076.003.001", "Arenga pinnata - A-076.003.001");
                  addfordrop3("A-076.003.002", "Arenga wightii - A-076.003.002");
                  
-                 
+    }
+    
+            else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Argyrolobium - A-140.025') {
+                            
+    addfordrop3("A-140.025.001", "Argyrolobium flaccidum - A-140.025.001");
+    addfordrop3("A-140.025.002", "Argyrolobium roseum - A-140.025.002");
+    addfordrop3("A-140.025.003", "Argyrolobium stenophyllum - A-140.025.003");
+    
                 }
                 
              else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Ariopsis - A-028.001') {
@@ -276,6 +364,14 @@ addfordrop3("A-140.001.041", "Arachis williamsii - A-140.001.041");
                  addfordrop3("A-028.005.040", "Arisaema utile - A-028.005.040");
                  addfordrop3("A-028.005.041", "Arisaema vexillatum - A-028.005.041");
                  addfordrop3("A-028.005.042", "Arisaema wattii - A-028.005.042");
+                 
+    }
+    
+            else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Arnica - A-403.013') {
+                            
+    addfordrop3("A-403.013.001", "Arnica montana - A-403.013.001");
+                 
+                 
              }
              
              else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Asparagus - A-074.002') {
@@ -365,6 +461,13 @@ addfordrop3("A-377.009.028", "Barleria terminalis - A-377.009.028");
 addfordrop3("A-377.009.029", "Barleria tomentosa - A-377.009.029");
 addfordrop3("A-377.009.030", "Barleria vestita - A-377.009.030");
 
+    }
+    
+            else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Bellis - A-403.014') {
+                            
+    addfordrop3("A-403.014.001", "Bellis perennis - A-403.014.001");
+
+
             }
             
                           
@@ -372,6 +475,13 @@ addfordrop3("A-377.009.030", "Barleria vestita - A-377.009.030");
              else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Bentinckia - A-076.004') {
                  addfordrop3("A-076.004.001", "Bentinckia condapanna - A-076.004.001");
                  addfordrop3("A-076.004.002", "Bentinckia nicobarica - A-076.004.002");
+                 
+    }
+    
+            else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Blainvillea - A-403.015') {
+                            
+    addfordrop3("A-403.015.001", "Blainvillea acmella - A-403.015.001");
+
                  
             }
             
@@ -397,6 +507,11 @@ addfordrop3("A-377.009.030", "Barleria vestita - A-377.009.030");
             
              else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Borassus - A-076.005') {
                  addfordrop3("A-076.005.001", "Borassus flabellifer - A-076.005.001");
+}            
+            
+             else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Brya - A-140.003') {
+                 addfordrop3("A-140.003.001", "Brya ebenus - A-140.003.001");
+                 
             }
             
                          else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Burmannia - A-044.001') {
@@ -417,6 +532,13 @@ addfordrop3("A-377.009.030", "Barleria vestita - A-377.009.030");
 
              else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Butomus - A-031.001') {
                  addfordrop3("A-031.001.001", "Butomus umbellatus - A-031.001.001");
+    }
+    
+            else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Caesulia - A-403.016') {
+                            
+    addfordrop3("A-403.016.001", "Caesulia axillaris - A-403.016.001");
+                 
+                 
             }
              else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Calacanthus - A-377.005') {
                  addfordrop3("A-377.005.001", "Calacanthus grandiflorus - A-377.005.001");
@@ -463,24 +585,70 @@ addfordrop3("A-377.009.030", "Barleria vestita - A-377.009.030");
                  addfordrop3("A-030.002.002", "Caldesia oligococca - A-030.002.002");
                  addfordrop3("A-030.002.003", "Caldesia oligococca var.echinata - A-030.002.003");
                  addfordrop3("A-030.002.004", "Caldesia parnassifolia - A-030.002.004");
+                 
+    }
+    
+            else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Calendula - A-403.017') {
+                            
+    addfordrop3("A-403.017.001", "Calendula arvensis - A-403.017.001");
+    addfordrop3("A-403.017.002", "Calendula officinalis - A-403.017.002");
+    
+    }
+    
+            else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Callistephus - A-403.018') {
+                            
+    addfordrop3("A-403.018.001", "Callistephus chinensis - A-403.018.001");
+    
+    }
+    
+            else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Calotis - A-403.019') {
+                            
+    addfordrop3("A-403.019.001", "Calotis hispidula - A-403.019.001");
             }
             
              else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Canna - A-086.001') {
                  addfordrop3("A-086.001.001", "Canna flaccida - A-086.001.001");
                  addfordrop3("A-086.001.002", "Canna indica - A-086.001.002");
+                 
+    }
+    
+            else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Carpesium - A-403.020') {
+                            
+    addfordrop3("A-403.020.001", "Carpesium abrotanoides - A-403.020.001");
+    addfordrop3("A-403.020.002", "Carpesium trachelifolium - A-403.020.002");
              }
              else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Caryota - A-076.006') {
                  addfordrop3("A-076.006.001", "Caryota mitis - A-076.006.001");
                  addfordrop3("A-076.006.002", "Caryota obtusa - A-076.006.002");
                  addfordrop3("A-076.006.003", "Caryota urens - A-076.006.003");
                  
-                 
+    }
+    
+            else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Centipeda - A-403.021') {
+                            
+    addfordrop3("A-403.021.001", "Centipeda minima - A-403.021.001");
+    
+    }
+    
+            else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Centratherum - A-403.022') {
+                            
+    addfordrop3("A-403.022.001", "Centratherum punctatum - A-403.022.001");
+    
+     }
+    
+            else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Christia - A-140.026') {
+                            
+    addfordrop3("A-140.026.001", "Christia vespertilionis - A-140.026.001");
+   
                  
              }
              else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Clarkeasia - A-377.014') {
                  addfordrop3("A-377.014.001", "Clarkeasia parviflora - A-377.014.001");
                  addfordrop3("A-377.014.002", "Clarkeasia parviflora var. albescens - A-377.014.002");
-
+}            
+            
+             else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Clianthus - A-140.004') {
+                 addfordrop3("A-140.004.001", "Clianthus puniceus - A-140.004.001");
              }
              else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Clinacanthus - A-377.006') {
                  addfordrop3("A-377.006.001", "Clinacanthus nutans - A-377.006.001");
@@ -488,6 +656,11 @@ addfordrop3("A-377.009.030", "Barleria vestita - A-377.009.030");
             }
              else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Cocos - A-076.007') {
                  addfordrop3("A-076.007.001", "Cocos nucifera - A-076.007.001");
+}            
+            
+             else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Codariocalyx - A-140.005') {
+                 addfordrop3("A-140.005.001", "Codariocalyx gyroides - A-140.005.001");
+                 addfordrop3("A-140.005.002", "Codariocalyx motorius - A-140.005.002");
              }
              else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Codonacanthus - A-377.007') {
                  addfordrop3("A-377.007.001", "Codonacanthus pauciflorus - A-377.007.001");
@@ -514,12 +687,35 @@ addfordrop3("A-078.001.016", "Commelina subulata - A-078.001.016");
 addfordrop3("A-078.001.017", "Commelina suffruticosa - A-078.001.017");
 addfordrop3("A-078.001.018", "Commelina wightii - A-078.001.018");
 
+
+    }
+    
+            else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Coreopsis - A-403.023') {
+                            
+    addfordrop3("A-403.023.001", "Coreopsis tinctoria - A-403.023.001");
+
+
+
             }
              else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Corypha - A-076.008') {
 
                  addfordrop3("A-076.008.001", "Corypha taliera - A-076.008.001");
                  addfordrop3("A-076.008.002", "Corypha umbraculifera - A-076.008.002");
                  addfordrop3("A-076.008.003", "Corypha utan - A-076.008.003");
+                 
+                 
+    }
+    
+            else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Cosmos - A-403.024') {
+                            
+    addfordrop3("A-403.024.001", "Cosmos bipinnatus - A-403.024.001");
+    addfordrop3("A-403.024.002", "Cosmos caudatus - A-403.024.002");
+    
+    }
+    
+            else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Crassocephalum - A-403.025') {
+                            
+    addfordrop3("A-403.025.001", "Crassocephalum crepidioides - A-403.025.001");
                  
             }
              else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Crinum - A-073.003') {
@@ -542,6 +738,12 @@ addfordrop3("A-078.001.018", "Commelina wightii - A-078.001.018");
                  addfordrop3("A-073.003.016", "Crinum woodrowii - A-073.003.016");
                  addfordrop3("A-073.003.017", "Crinum zeylanicum - A-073.003.017");
                  
+    }
+    
+            else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Crupina - A-403.026') {
+                            
+    addfordrop3("A-403.026.001", "Crupina vulgaris - A-403.026.001");
+                 
             }
             
             else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Cymodocea - A-041.001') {
@@ -552,8 +754,16 @@ addfordrop3("A-078.001.018", "Commelina wightii - A-078.001.018");
                  addfordrop3("A-076.009.001", "Daemonorops jenkinsianus - A-076.009.001");
                  addfordrop3("A-076.009.002", "Daemonorops kurziana - A-076.009.002");
                  addfordrop3("A-076.009.003", "Daemonorops manii - A-076.009.003");
+                 
+     }
+    
+            else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Christia - A-140.027') {
+                            
+    addfordrop3("A-140.027.001", "Dendrolobium triangulare - A-140.027.001");
 
-
+             }
+             else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Dicerma - A-140.006') {
+                 addfordrop3("A-140.006.001", "Dicerma biarticulatum - A-140.006.001");
 
 
             }
@@ -583,7 +793,11 @@ addfordrop3("A-078.001.018", "Commelina wightii - A-078.001.018");
                  addfordrop3("A-377.015.022", "Dicliptera spinulosa - A-377.015.022");
                  addfordrop3("A-377.015.023", "Dicliptera verticillata - A-377.015.023");
 
-
+    }
+    
+            else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Dicoma - A-403.027') {
+                            
+    addfordrop3("A-403.027.001", "Dicoma tomentosa - A-403.027.001");
 
 
             }
@@ -597,6 +811,12 @@ addfordrop3("A-078.001.018", "Commelina wightii - A-078.001.018");
 
              else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Didymosperma - A-076.010') {
                  addfordrop3("A-076.010.001", "Didymosperma gracilis - A-076.010.001");
+                 
+    }
+    
+            else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Dimorphotheca - A-403.028') {
+                            
+    addfordrop3("A-403.028.001", "Dimorphotheca pluvialis - A-403.028.001");
 
             }
             
@@ -673,6 +893,9 @@ addfordrop3("A-074.001.009", "Drimia wightii - A-074.001.009");
     addfordrop3("A-377.016.003", "Dyschoriste nagchana - A-377.016.003");
     addfordrop3("A-377.016.004", "Dyschoriste vagans - A-377.016.004");
 
+             }
+             else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Ebenus - A-140.007') {
+                 addfordrop3("A-140.007.001", "Ebenus stellata - A-140.007.001");
 
 
               }
@@ -699,7 +922,11 @@ addfordrop3("A-074.001.009", "Drimia wightii - A-074.001.009");
                             
     addfordrop3("A-377.018.001", "Echinacanthus attenuatus - A-377.018.001");
   
-
+    }
+    
+            else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Elephantopus - A-403.029') {
+                            
+    addfordrop3("A-403.029.001", "Elephantopus scaber - A-403.029.001");
               }
               
 
@@ -708,7 +935,11 @@ addfordrop3("A-074.001.009", "Drimia wightii - A-074.001.009");
     addfordrop3("A-377.019.001", "Elytraria acaulis - A-377.019.001");
     addfordrop3("A-377.019.001", "Elytraria marginita - A-377.019.001");
 	
-	
+    }
+    
+            else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Enydra - A-403.030') {
+                            
+    addfordrop3("A-403.030.001", "Enydra fluctuans - A-403.030.001");
               }
               
 
@@ -827,7 +1058,9 @@ addfordrop3("A-094.001.085", "Eriocaulon vasudevanii - A-094.001.085");
 addfordrop3("A-094.001.086", "Eriocaulon wightianum - A-094.001.086");
 addfordrop3("A-094.001.087", "Eriocaulon xeranthemum - A-094.001.087");
 		 
-			 
+             }
+             else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Euchresta - A-140.008') {
+                 addfordrop3("A-140.008.001", "Euchresta horsfieldii - A-140.008.001");
 			 
 			 }
 			 
@@ -845,14 +1078,26 @@ addfordrop3("A-094.001.087", "Eriocaulon xeranthemum - A-094.001.087");
             else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Furcraea - A-074.004') {
                             
     addfordrop3("A-074.004.001", "Furcraea foetida - A-074.004.001");
-	
-
+             }
+             else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Galega - A-140.009') {
+                 addfordrop3("A-140.009.001", "Galega officinalis - A-140.009.001");
+                 
+    }
+    
+            else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Grangea - A-403.031') {
+                            
+    addfordrop3("A-403.031.001", "Grangea maderaspatana - A-403.031.001");
 	     }
 
             else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Graptophyllum - A-377.021') {
                             
     addfordrop3("A-377.021.001", "Graptophyllum pictum - A-377.021.001");
-
+    
+    }
+    
+            else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Guizotia - A-403.032') {
+                            
+    addfordrop3("A-403.032.001", "Guizotia abyssinica - A-403.032.001");
 	     }
 
             else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Gymnostachyum - A-377.022') {
@@ -874,6 +1119,10 @@ addfordrop3("A-094.001.087", "Eriocaulon xeranthemum - A-094.001.087");
             else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Habranthus - A-073.004') {
                             
     addfordrop3("A-073.004.001", "Habranthus tubispathus - A-073.004.001");
+
+             }
+             else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Halimodendron - A-140.010') {
+                 addfordrop3("A-140.010.001", "Halimodendron halodendron - A-140.010.001");
 
               }
             else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Halodule - A-041.002') {
@@ -904,7 +1153,13 @@ addfordrop3("A-094.001.087", "Eriocaulon xeranthemum - A-094.001.087");
             else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Haplothismia - A-044.002') {
                             
     addfordrop3("A-044.002.001", "Haplothismia exannulata - A-044.002.001");
- 
+    
+    
+    }
+    
+            else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Helipterum - A-403.033') {
+                            
+    addfordrop3("A-403.033.001", "Helipterum manglesii - A-403.033.001");
 
 	     }
             else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Hemigraphis - A-377.024') {
@@ -970,13 +1225,22 @@ addfordrop3("A-094.001.087", "Eriocaulon xeranthemum - A-094.001.087");
     addfordrop3("A-073.005.005", "Hymenocallis occidentalis - A-073.005.005");
     addfordrop3("A-073.005.006", "Hymenocallis rotata - A-073.005.006");
     addfordrop3("A-073.005.007", "Hymenocallis speciosa - A-073.005.007");
- 
+    }
+    
+            else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Ifloga - A-403.034') {
+                            
+    addfordrop3("A-403.034.001", "Ifloga spicata - A-403.034.001");
 
             }
                         else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Isoglossa - A-377.026') {
                             
     addfordrop3("A-377.026.001", "Isoglossa collina - A-377.026.001");
-
+    
+    }
+    
+            else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Ixeris - A-403.035') {
+                            
+    addfordrop3("A-403.035.001", "Ixeris polycephala - A-403.035.001");
            }
 
               
@@ -1029,18 +1293,66 @@ addfordrop3("A-377.011.044", "Justicia vasculosa - A-377.011.044");
 addfordrop3("A-377.011.045", "Justicia virgata - A-377.011.045");
 addfordrop3("A-377.011.046", "Justicia wynaadensis - A-377.011.046");
 
+             }
+             else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Kummerowia - A-140.011') {
+                 addfordrop3("A-140.011.001", "Kummerowia striata - A-140.011.001");
+
+             }
+             else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Laburnum - A-140.012') {
+                 addfordrop3("A-140.012.001", "Laburnum anagyroides - A-140.012.001");
+                 
+     }
+    
+            else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Lens - A-140.028') {
+                            
+    addfordrop3("A-140.028.001", "Lens culinaris - A-140.028.001");
+    addfordrop3("A-140.028.002", "Lens culinaris subsp. culinaris - A-140.028.002");
+    addfordrop3("A-140.028.003", "Lens culinaris subsp. odemensis - A-140.028.003");
+    addfordrop3("A-140.028.004", "Lens culinaris subsp. orientalis - A-140.028.004");
+    addfordrop3("A-140.028.005", "Lens culinaris subsp. tomentosus - A-140.028.005");
+    addfordrop3("A-140.028.006", "Lens ervoides - A-140.028.006");
+    addfordrop3("A-140.028.007", "Lens lamottei - A-140.028.007");
+    addfordrop3("A-140.028.008", "Lens nigricans - A-140.028.008");
+                 
             }
 
              else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Leptostachya - A-377.008') {
                  addfordrop3("A-377.008.001", "Leptostachya wallichii - A-377.008.001");
-                 
+             }
+             else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Leucaena - A-140.013') {
+                 addfordrop3("A-140.013.001", "Leucaena leucocephala - A-140.013.001");
                  
             }
             
             else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Limnophyton - A-030.003') {
                  addfordrop3("A-030.003.001", "Limnophyton obtusifolium - A-030.003.001");
+                 
+     }
+    
+            else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Lonchocarpus - A-140.029') {
+                            
+    addfordrop3("A-140.029.001", "Lonchocarpus sericeus - A-140.029.001");
 
-           
+             }
+             else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Lysidice - A-140.014') {
+                 addfordrop3("A-140.014.001", "Lysidice rhodostegia - A-140.014.001");
+                 
+             }
+             else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Macroptilium - A-140.015') {
+                 addfordrop3("A-140.015.001", "Macroptilium atropurpureum - A-140.015.001");
+                 addfordrop3("A-140.015.002", "Macroptilium lathyroides - A-140.015.002");
+                 
+     }
+    
+            else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Macrotyloma - A-140.030') {
+                            
+    addfordrop3("A-140.030.001", "Macrotyloma uniflorum - A-140.030.001");
+
+                 
+             }
+             else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Mastersia - A-140.016') {
+                 addfordrop3("A-140.016.001", "Mastersia assamica - A-140.016.001");
+                 
             }
 
                else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Murdannia - A-078.010') {
@@ -1070,6 +1382,12 @@ addfordrop3("A-078.010.021", "Murdannia triquetra - A-078.010.021");
 addfordrop3("A-078.010.022", "Murdannia vaginata - A-078.010.022");
 addfordrop3("A-078.010.023", "Murdannia versicolor - A-078.010.023");
 addfordrop3("A-078.010.025", "Murdannia zeylanica - A-078.010.025");
+
+     }
+    
+            else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Myroxylon - A-140.031') {
+                            
+    addfordrop3("A-140.031.001", "Myroxylon balsamum var. pereirae - A-140.031.001");
            
              }
             
@@ -1085,7 +1403,16 @@ addfordrop3("A-078.010.025", "Murdannia zeylanica - A-078.010.025");
             
              else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Nypa - A-076.012') {
                  addfordrop3("A-076.012.001", "Nypa fruticans - A-076.012.001");
-
+     }
+    
+            else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Ormocarpum - A-140.032') {
+                            
+    addfordrop3("A-140.032.001", "Ormocarpum cochinchinense - A-140.032.001");
+           
+                 
+             }
+             else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Ornithopus - A-140.017') {
+                 addfordrop3("A-140.017.001", "Ornithopus perpusillus - A-140.017.001");
       }
 
             else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Ottelia - A-032.007') {
@@ -1104,7 +1431,12 @@ addfordrop3("A-078.010.025", "Murdannia zeylanica - A-078.010.025");
                  addfordrop3("A-073.001.005", "Pancratium sanctae-mariae - A-073.001.005");
                    addfordrop3("A-073.001.006", "Pancratium triflorum - A-073.001.006");
                  addfordrop3("A-073.001.007", "Pancratium verecundum - A-073.001.007");
-            addfordrop3("A-073.001.008", "Pancratium zeylanicum - A-073.001.008");     
+            addfordrop3("A-073.001.008", "Pancratium zeylanicum - A-073.001.008");    
+            
+             }
+             else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Parochetus - A-140.018') {
+                 addfordrop3("A-140.018.001", "Parochetus communis - A-140.018.001");
+ 
             }
              else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Pollia - A-078.006') {
                  addfordrop3("A-078.006.001", "Pollia hasskarlii - A-078.006.001");
@@ -1112,9 +1444,29 @@ addfordrop3("A-078.010.025", "Murdannia zeylanica - A-078.010.025");
                  addfordrop3("A-078.006.003", "Pollia secundiflora - A-078.006.003");
               addfordrop3("A-078.006.004", "Pollia subumbellata - A-078.006.004");
            addfordrop3("A-078.006.005", "Pollia thyrsiflora - A-078.006.005");
+           
+             }
+             else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Pongamia - A-140.019') {
+                 addfordrop3("A-140.019.001", "Pongamia pinnata - A-140.019.001");
+                 
+             }
+             else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Pseudarthria - A-140.020') {
+                 addfordrop3("A-140.020.001", "Pseudarthria viscida - A-140.020.001");
+                 
+     }
+    
+            else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Pterocarpus - A-140.033') {
+                            
+    addfordrop3("A-140.033.001", "Pterocarpus marsupium - A-140.033.001");
+    addfordrop3("A-140.033.002", "Pterocarpus indicus - A-140.033.002");
+           
             }
              else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Rhopalephora - A-078.005') {
                  addfordrop3("A-078.005.001", "Rhopalephora scaberrima - A-078.005.001");
+                 
+             }
+             else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Rothia - A-140.021') {
+                 addfordrop3("A-140.021.001", "Rothia indica - A-140.021.001");
 
             }
 
@@ -1126,6 +1478,21 @@ addfordrop3("A-078.010.025", "Murdannia zeylanica - A-078.010.025");
               addfordrop3("A-030.004.004", "Sagittaria longiloba - A-030.004.004");
            addfordrop3("A-030.004.005", "Sagittaria sagittifolia - A-030.004.005");
            addfordrop3("A-030.004.006", "Sagittaria trifolia - A-030.004.006");
+           
+     }
+    
+            else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Smithia - A-140.034') {
+                            
+    addfordrop3("A-140.034.001", "Smithia bigemina - A-140.034.001");
+    addfordrop3("A-140.034.002", "Smithia blanda - A-140.034.002");
+    addfordrop3("A-140.034.003", "Smithia ciliata - A-140.034.003");
+    addfordrop3("A-140.034.004", "Smithia conferta - A-140.034.004");
+    addfordrop3("A-140.034.005", "Smithia sensitiva - A-140.034.005");
+    
+             }
+             else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Spartium - A-140.022') {
+                 addfordrop3("A-140.022.001", "Spartium junceum - A-140.022.001");
+           
            
             }
              else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Streptolirion - A-078.007') {
@@ -1292,6 +1659,13 @@ addfordrop3("A-377.010.150", "Strobilanthes zenkeriana - A-377.010.150");
                  else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Syringodium - A-041.003') {
                             
     addfordrop3("A-041.003.001", "Syringodium isoetifolium - A-041.003.001");
+    
+     }
+    
+            else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Taverniera - A-140.035') {
+                            
+    addfordrop3("A-140.035.001", "Taverniera cuneifolia - A-140.035.001");
+    
 	 }
 
 
@@ -1303,6 +1677,18 @@ addfordrop3("A-377.010.150", "Strobilanthes zenkeriana - A-377.010.150");
             else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Thalassodendron - A-041.004') {
                             
     addfordrop3("A-041.004.001", "Thalassodendron ciliatum - A-041.004.001");
+    
+     }
+    
+            else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Thermopsis - A-140.036') {
+                            
+    addfordrop3("A-140.036.001", "Thermopsis lanceolata - A-140.036.001");
+    
+    
+             }
+             else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Tipuana - A-140.023') {
+                 addfordrop3("A-140.023.001", "Tipuana tipu - A-140.023.001");
+    
 	 }
             else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Tradescantia - A-078.008') {
                             
@@ -1312,6 +1698,15 @@ addfordrop3("A-377.010.150", "Strobilanthes zenkeriana - A-377.010.150");
                             
     addfordrop3("A-078.009.001", "Tricarpelema giganteum - A-078.009.001");
         addfordrop3("A-078.009.002", "Tricarpelema glanduliferum - A-078.009.002");
+        
+     }
+    
+            else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Uraria - A-140.037') {
+                            
+    addfordrop3("A-140.037.001", "Uraria crinita - A-140.037.001");
+    addfordrop3("A-140.037.002", "Uraria lagopus - A-140.037.002");
+    addfordrop3("A-140.037.003", "Uraria picta - A-140.037.003");
+    addfordrop3("A-140.037.004", "Uraria rufescens - A-140.037.004");
 
 	 }
 
@@ -1356,10 +1751,25 @@ addfordrop3("A-140.002.023", "Vigna unguiculata subsp.sesquipedalis - A-140.002.
             }
        else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Wiesneria - A-030.005') {
                  addfordrop3("A-030.005.001", "Wiesneria triandra - A-030.005.001");
+                 
+             }
+             else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Wisteria - A-140.024') {
+                 addfordrop3("A-140.024.001", "Wisteria sinensis - A-140.024.001");
+     }
+    
+            else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Xylia - A-140.038') {
+                            
+    addfordrop3("A-140.038.001", "Xylia xylocarpa - A-140.038.001");
             }
        else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Zephyranthes - A-073.006') {
                  addfordrop3("A-073.006.001", "Zephyranthes carinata - A-073.006.001");
                  addfordrop3("A-073.006.002", "Zephyranthes rosea - A-073.006.002");
+     }
+    
+            else if (document.getElementById("drop2").options[document.getElementById('drop2').selectedIndex].text == 'Zornia - A-140.039') {
+                            
+    addfordrop3("A-140.039.001", "Zornia diphylla - A-140.039.001");
+                 
        }
 
 
@@ -1425,10 +1835,10 @@ addfordrop3("A-140.002.023", "Vigna unguiculata subsp.sesquipedalis - A-140.002.
             }
      
                 else if (document.getElementById("drop1").options[document.getElementById('drop1').selectedIndex].text == 'Araceae - A-28') {
-                addfordrop2("A-028.001", "Alocasia - A-028.001");
-                addfordrop2("A-028.002", "Amorphophallus - A-028.002");
-                addfordrop2("A-028.003", "Anaphyllum - A-028.003");
-                addfordrop2("A-028.004", "Ariopsis - A-028.004");
+                addfordrop2("A-028.002", "Alocasia - A-028.002");
+                addfordrop2("A-028.003", "Amorphophallus - A-028.003");
+                addfordrop2("A-028.004", "Anaphyllum - A-028.004");
+                addfordrop2("A-028.001", "Ariopsis - A-028.001");
                 addfordrop2("A-028.005", "Arisaema - A-028.005");
             }
             
@@ -1439,6 +1849,7 @@ addfordrop3("A-140.002.023", "Vigna unguiculata subsp.sesquipedalis - A-140.002.
                 addfordrop2("A-076.003", "Arenga - A-076.003");
                 addfordrop2("A-076.004", "Bentinckia - A-076.004");
                 addfordrop2("A-076.005", "Borassus - A-076.005");
+ 				addfordrop2("A-076.013", "Calamus - A-076.013");
                 addfordrop2("A-076.006", "Caryota - A-076.006");
                 addfordrop2("A-076.007", "Cocos - A-076.007");
                 addfordrop2("A-076.008", "Corypha - A-076.008");
@@ -1448,10 +1859,52 @@ addfordrop3("A-140.002.023", "Vigna unguiculata subsp.sesquipedalis - A-140.002.
  				addfordrop2("A-076.012", "Nypa - A-076.012");
             }
             else if (document.getElementById("drop1").options[document.getElementById('drop1').selectedIndex].text == 'Asparagaceae - A-74') {
-                addfordrop2("A-074.001", "Asparagus - A-074.001");
-                addfordrop2("A-074.002", "Dracaena - A-074.002");
-                addfordrop2("A-074.003", "Drimia - A-074.003");
+                addfordrop2("A-074.002", "Asparagus - A-074.002");
+                addfordrop2("A-074.003", "Dracaena - A-074.003");
+                addfordrop2("A-074.001", "Drimia - A-074.001");
                 addfordrop2("A-074.004", "Furcraea - A-074.004");
+                
+                
+           }
+           
+                else if (document.getElementById("drop1").options[document.getElementById('drop1').selectedIndex].text == 'Asteraceae - A-403') {
+                addfordrop2("A-403.001", "Acanthospermum - A-403.001");
+                addfordrop2("A-403.002", "Achillea - A-403.002");
+                addfordrop2("A-403.003", "Adenocaulon - A-403.003");
+                addfordrop2("A-403.004", "Adenoon - A-403.004");
+                addfordrop2("A-403.005", "Adenostemma - A-403.005");
+                addfordrop2("A-403.006", "Ageratina - A-403.006");
+                addfordrop2("A-403.007", "Ageratum - A-403.007");
+                addfordrop2("A-403.008", "Ainsliaea - A-403.008");
+                addfordrop2("A-403.009", "Amberboa - A-403.009");
+                addfordrop2("A-403.010", "Ambrosia - A-403.010");
+                addfordrop2("A-403.011", "Anthemis - A-403.011");
+                addfordrop2("A-403.012", "Arctium - A-403.012");
+                addfordrop2("A-403.013", "Arnica - A-403.013");
+                addfordrop2("A-403.014", "Bellis - A-403.014");
+                addfordrop2("A-403.015", "Blainvillea - A-403.015");
+                addfordrop2("A-403.016", "Caesulia - A-403.016");
+                addfordrop2("A-403.017", "Calendula - A-403.017");
+                addfordrop2("A-403.018", "Callistephus - A-403.018");
+                addfordrop2("A-403.019", "Calotis - A-403.019");
+                addfordrop2("A-403.020", "Carpesium - A-403.020");
+                addfordrop2("A-403.021", "Centipeda - A-403.021");
+                addfordrop2("A-403.022", "Centratherum - A-403.022");
+                addfordrop2("A-403.023", "Coreopsis - A-403.023");
+                addfordrop2("A-403.024", "Cosmos - A-403.024");
+                addfordrop2("A-403.025", "Crassocephalum - A-403.025");
+                addfordrop2("A-403.026", "Crupina - A-403.026");
+                addfordrop2("A-403.027", "Dicoma - A-403.027");
+                addfordrop2("A-403.028", "Dimorphotheca - A-403.028");
+                addfordrop2("A-403.029", "Elephantopus - A-403.029");
+                addfordrop2("A-403.030", "Enydra - A-403.030");
+                addfordrop2("A-403.031", "Grangea - A-403.031");
+                addfordrop2("A-403.032", "Guizotia - A-403.032");
+                addfordrop2("A-403.033", "Helipterum - A-403.033");
+                addfordrop2("A-403.034", "Ifloga - A-403.034");
+                addfordrop2("A-403.035", "Ixeris - A-403.035");
+           
+                
            }
      
                 else if (document.getElementById("drop1").options[document.getElementById('drop1').selectedIndex].text == 'Burmanniaceae - A-44') {
@@ -1500,7 +1953,45 @@ addfordrop3("A-140.002.023", "Vigna unguiculata subsp.sesquipedalis - A-140.002.
            
                 else if (document.getElementById("drop1").options[document.getElementById('drop1').selectedIndex].text == 'Fabaceae - A-140') {
                 addfordrop2("A-140.001", "Arachis - A-140.001");
+                addfordrop2("A-140.025", "Argyrolobium - A-140.025");
+                addfordrop2("A-140.003", "Brya - A-140.003");
+                addfordrop2("A-140.026", "Christia - A-140.026");
+                addfordrop2("A-140.004", "Clianthus - A-140.004");
+                addfordrop2("A-140.005", "Codariocalyx - A-140.005");
+                addfordrop2("A-140.027", "Dendrolobium - A-140.027");
+                addfordrop2("A-140.006", "Dicerma - A-140.006");
+                addfordrop2("A-140.007", "Ebenus - A-140.007");
+                addfordrop2("A-140.008", "Euchresta - A-140.008");
+                addfordrop2("A-140.009", "Galega - A-140.009");
+                addfordrop2("A-140.010", "Halimodendron - A-140.010");
+                addfordrop2("A-140.011", "Kummerowia - A-140.011");
+                addfordrop2("A-140.012", "Laburnum - A-140.012");
+                addfordrop2("A-140.028", "Lens - A-140.028");
+                addfordrop2("A-140.013", "Leucaena - A-140.013");
+                addfordrop2("A-140.029", "Lonchocarpus - A-140.029");
+                addfordrop2("A-140.014", "Lysidice - A-140.014");
+                addfordrop2("A-140.015", "Macroptilium - A-140.015");
+                addfordrop2("A-140.030", "Macrotyloma - A-140.030");
+                addfordrop2("A-140.016", "Mastersia - A-140.016");
+                addfordrop2("A-140.031", "Myroxylon - A-140.031");
+                addfordrop2("A-140.032", "Ormocarpum - A-140.032");
+                addfordrop2("A-140.017", "Ornithopus - A-140.017");
+                addfordrop2("A-140.018", "Parochetus - A-140.018");
+                addfordrop2("A-140.019", "Pongamia - A-140.019");
+                addfordrop2("A-140.020", "Pseudarthria - A-140.020");
+                addfordrop2("A-140.033", "Pterocarpus - A-140.033");
+                addfordrop2("A-140.021", "Rothia - A-140.021");
+                addfordrop2("A-140.034", "Smithia - A-140.034");
+                addfordrop2("A-140.022", "Spartium - A-140.022");
+                addfordrop2("A-140.035", "Taverniera - A-140.035");
+                addfordrop2("A-140.036", "Thermopsis - A-140.036");
+                addfordrop2("A-140.023", "Tipuana - A-140.023");
+                addfordrop2("A-140.037", "Uraria - A-140.037");
                 addfordrop2("A-140.002", "Vigna - A-140.002");
+                addfordrop2("A-140.024", "Wisteria - A-140.024");
+                addfordrop2("A-140.038", "Xylia - A-140.038");
+                addfordrop2("A-140.039", "Zornia - A-140.039");
+                
            }
            
                 else if (document.getElementById("drop1").options[document.getElementById('drop1').selectedIndex].text == 'Flagellariaceae - A-100') {
@@ -1591,6 +2082,50 @@ addfordrop3("A-140.002.023", "Vigna unguiculata subsp.sesquipedalis - A-140.002.
 				addfordrop2("A-078.008", "Tradescantia - A-078.008");
 				addfordrop2("A-078.009", "Tricarpelema - A-078.009");
 				
+				
+           }
+           
+                else if (document.getElementById("drop1").options[document.getElementById('drop1').selectedIndex].text == 'Compositae') {
+                addfordrop2("A-403.001", "Acanthospermum - A-403.001");
+                addfordrop2("A-403.002", "Achillea - A-403.002");
+                addfordrop2("A-403.003", "Adenocaulon - A-403.003");
+                addfordrop2("A-403.004", "Adenoon - A-403.004");
+                addfordrop2("A-403.005", "Adenostemma - A-403.005");
+                addfordrop2("A-403.006", "Ageratina - A-403.006");
+                addfordrop2("A-403.007", "Ageratum - A-403.007");
+                addfordrop2("A-403.008", "Ainsliaea - A-403.008");
+                addfordrop2("A-403.009", "Amberboa - A-403.009");
+                addfordrop2("A-403.010", "Ambrosia - A-403.010");
+                addfordrop2("A-403.011", "Anthemis - A-403.011");
+                addfordrop2("A-403.012", "Arctium - A-403.012");
+                addfordrop2("A-403.013", "Arnica - A-403.013");
+                addfordrop2("A-403.014", "Bellis - A-403.014");
+                addfordrop2("A-403.015", "Blainvillea - A-403.015");
+                addfordrop2("A-403.016", "Caesulia - A-403.016");
+                addfordrop2("A-403.017", "Calendula - A-403.017");
+                addfordrop2("A-403.018", "Callistephus - A-403.018");
+                addfordrop2("A-403.019", "Calotis - A-403.019");
+                addfordrop2("A-403.020", "Carpesium - A-403.020");
+                addfordrop2("A-403.021", "Centipeda - A-403.021");
+                addfordrop2("A-403.022", "Centratherum - A-403.022");
+                addfordrop2("A-403.023", "Coreopsis - A-403.023");
+                addfordrop2("A-403.024", "Cosmos - A-403.024");
+                addfordrop2("A-403.025", "Crassocephalum - A-403.025");
+                addfordrop2("A-403.026", "Crupina - A-403.026");
+                addfordrop2("A-403.027", "Dicoma - A-403.027");
+                addfordrop2("A-403.028", "Dimorphotheca - A-403.028");
+                addfordrop2("A-403.029", "Elephantopus - A-403.029");
+                addfordrop2("A-403.030", "Enydra - A-403.030");
+                addfordrop2("A-403.031", "Grangea - A-403.031");
+                addfordrop2("A-403.032", "Guizotia - A-403.032");
+                addfordrop2("A-403.033", "Helipterum - A-403.033");
+                addfordrop2("A-403.034", "Ifloga - A-403.034");
+                addfordrop2("A-403.035", "Ixeris - A-403.035");
+           
+				
+				
+				
+				
                 
    			}
                 else if (document.getElementById("drop1").options[document.getElementById('drop1').selectedIndex].text == 'Dioscoreaceae') {
@@ -1616,7 +2151,44 @@ addfordrop3("A-140.002.023", "Vigna unguiculata subsp.sesquipedalis - A-140.002.
            
                 else if (document.getElementById("drop1").options[document.getElementById('drop1').selectedIndex].text == 'Leguminosae') {
                 addfordrop2("A-140.001", "Arachis - A-140.001");
+                addfordrop2("A-140.025", "Argyrolobium - A-140.025");
+                addfordrop2("A-140.003", "Brya - A-140.003");
+                addfordrop2("A-140.026", "Christia - A-140.026");
+                addfordrop2("A-140.004", "Clianthus - A-140.004");
+                addfordrop2("A-140.005", "Codariocalyx - A-140.005");
+                addfordrop2("A-140.027", "Dendrolobium - A-140.027");
+                addfordrop2("A-140.006", "Dicerma - A-140.006");
+                addfordrop2("A-140.007", "Ebenus - A-140.007");
+                addfordrop2("A-140.008", "Euchresta - A-140.008");
+                addfordrop2("A-140.009", "Galega - A-140.009");
+                addfordrop2("A-140.010", "Halimodendron - A-140.010");
+                addfordrop2("A-140.011", "Kummerowia - A-140.011");
+                addfordrop2("A-140.012", "Laburnum - A-140.012");
+                addfordrop2("A-140.028", "Lens - A-140.028");
+                addfordrop2("A-140.013", "Leucaena - A-140.013");
+                addfordrop2("A-140.029", "Lonchocarpus - A-140.029");
+                addfordrop2("A-140.014", "Lysidice - A-140.014");
+                addfordrop2("A-140.015", "Macroptilium - A-140.015");
+                addfordrop2("A-140.030", "Macrotyloma - A-140.030");
+                addfordrop2("A-140.016", "Mastersia - A-140.016");
+                addfordrop2("A-140.031", "Myroxylon - A-140.031");
+                addfordrop2("A-140.032", "Ormocarpum - A-140.032");
+                addfordrop2("A-140.017", "Ornithopus - A-140.017");
+                addfordrop2("A-140.018", "Parochetus - A-140.018");
+                addfordrop2("A-140.019", "Pongamia - A-140.019");
+                addfordrop2("A-140.020", "Pseudarthria - A-140.020");
+                addfordrop2("A-140.033", "Pterocarpus - A-140.033");
+                addfordrop2("A-140.021", "Rothia - A-140.021");
+                addfordrop2("A-140.034", "Smithia - A-140.034");
+                addfordrop2("A-140.022", "Spartium - A-140.022");
+                addfordrop2("A-140.035", "Taverniera - A-140.035");
+                addfordrop2("A-140.036", "Thermopsis - A-140.036");
+                addfordrop2("A-140.023", "Tipuana - A-140.023");
+                addfordrop2("A-140.037", "Uraria - A-140.037");
                 addfordrop2("A-140.002", "Vigna - A-140.002");
+                addfordrop2("A-140.024", "Wisteria - A-140.024");
+                addfordrop2("A-140.038", "Xylia - A-140.038");
+                addfordrop2("A-140.039", "Zornia - A-140.039");
                 
   }
             else if (document.getElementById("drop1").options[document.getElementById('drop1').selectedIndex].text == 'Liliaceae') {
@@ -1647,6 +2219,7 @@ addfordrop3("A-140.002.023", "Vigna unguiculata subsp.sesquipedalis - A-140.002.
                 addfordrop2("A-076.003", "Arenga - A-076.003");
                 addfordrop2("A-076.004", "Bentinckia - A-076.004");
                 addfordrop2("A-076.005", "Borassus - A-076.005");
+                addfordrop2("A-076.013", "Calamus - A-076.013");
                 addfordrop2("A-076.006", "Caryota - A-076.006");
                 addfordrop2("A-076.007", "Cocos - A-076.007");
                 addfordrop2("A-076.008", "Corypha - A-076.008");
@@ -1760,9 +2333,16 @@ addfordrop3("A-140.002.023", "Vigna unguiculata subsp.sesquipedalis - A-140.002.
         function load_pagesp() {
             var selected_page = document.getElementById("drop3").value;
             if (selected_page != "-- Select an option --") {
-                selected_page = "SP Data2/" + selected_page + ".html"
+            
+            if left(selected_page,5) == "A-403" {
+            selected_page = "SP403/" + selected_page + ".html"
                 window.open(selected_page)
+            }
+             else if left(selected_page,5) != "A-403" {
 
+              selected_page = "SP Data2/" + selected_page + ".html"
+                window.open(selected_page)
+			}
                 // window.location.href = selected_page
                 //Please note that the value recived,
                 //in this case selected_page,
@@ -1802,6 +2382,7 @@ addfordrop3("A-140.002.023", "Vigna unguiculata subsp.sesquipedalis - A-140.002.
               		    addfordrop1("Araceae", "Araceae - A-28");
               		   addfordrop1("Arecaceae", "Arecaceae - A-76");
             		    addfordrop1("Asparagaceae", "Asparagaceae - A-74");
+            		    addfordrop1("Asteraceae", "Asteraceae - A-403");
              			   addfordrop1("Burmanniaceae", "Burmanniaceae - A-44");
           		     addfordrop1("Butomaceae", "Butomaceae - A-31");
              		   addfordrop1("Cannaceae", "Cannaceae - A-86");
@@ -1821,6 +2402,7 @@ addfordrop3("A-140.002.023", "Vigna unguiculata subsp.sesquipedalis - A-140.002.
                 addfordrop1("Aroideae", "Aroideae");
                 addfordrop1("Burmanniaceae", "Burmanniaceae");
                 addfordrop1("Commelinaceae", "Commelinaceae");
+                addfordrop1("Compositae", "Compositae");
                 addfordrop1("Dioscoreaceae", "Dioscoreaceae");
                 addfordrop1("Eriocaulaceae", "Eriocaulaceae");
                 addfordrop1("Flagellarieae", "Flagellarieae");
