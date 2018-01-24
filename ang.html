@@ -2339,11 +2339,11 @@ addfordrop3("A-140.002.023", "Vigna unguiculata subsp.sesquipedalis - A-140.002.
             var selected_page = document.getElementById("drop3").value;
             if (selected_page != "-- Select an option --") {
             
-            if ((document.getElementById("drop1").options[document.getElementById('drop1').selectedIndex].text == 'Asteraceae - A-403') or (document.getElementById("drop1").options[document.getElementById('drop1').selectedIndex].text == 'Compositae')){
+            if (document.getElementById("drop1").options[document.getElementById('drop1').selectedIndex].text == 'Asteraceae - A-403'){
             selected_page = "SP403/" + selected_page + ".html"
                 window.open(selected_page)
             }
-             else if (selected_page1 != "Asteraceae - A-403") {
+             else if (document.getElementById("drop1").options[document.getElementById('drop1').selectedIndex].text != 'Asteraceae - A-403'){
 
               selected_page = "SP Data2/" + selected_page + ".html"
                 window.open(selected_page)
